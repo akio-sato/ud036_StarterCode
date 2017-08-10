@@ -1,7 +1,7 @@
 class Movie():
-    """This class provides a way to store movie related information
+    """Store movie attributes.
     
-    Keyword arguments:
+    Instance variables:
     movie_title -- the title of the movie
     box_art -- poster image file URL
     trailer_link -- YouTube URL

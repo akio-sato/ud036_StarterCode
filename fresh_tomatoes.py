@@ -130,10 +130,13 @@ movie_tile_content = '''
 
 
 def create_movie_tiles_content(movies):
-    """Returns a portion of an HTML file that showcases movies.
+    """Return a portion of an HTML file that showcases movies.
 
     Keyword arguments:
     movies -- list of Movie objects
+
+    Return value:
+    content -- string
     """
     # The HTML content for this section of the page
     content = ''
@@ -156,7 +159,7 @@ def create_movie_tiles_content(movies):
 
 
 def open_movies_page(movies):
-    """Generates an HTML file and opens the file in a browser window
+    """Generate an HTML file and open the file in a browser window.
 
     Keyword arguments:
     movies -- list of Movie objects
