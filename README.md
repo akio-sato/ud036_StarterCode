@@ -9,8 +9,6 @@ This program creates and opens an HTML file that showcases my favorite movies.
 
 ## Usage
 
-### Command Line
-
 ```
 $ python entertainment_center.py
 ```
