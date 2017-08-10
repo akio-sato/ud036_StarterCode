@@ -1,5 +1,3 @@
-import webbrowser
-
 class Movie():
     """This class provides a way to store movie related information
     
@@ -13,6 +11,3 @@ class Movie():
         self.title = movie_title
         self.poster_image_url = box_art
         self.trailer_youtube_url = trailer_link
-    
-    # def show_trailer(self):
-    #     webbrowser.open(self.trailer_youtube_url)
