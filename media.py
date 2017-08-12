@@ -1,11 +1,12 @@
 class Movie():
     """Store movie attributes.
-    
+
     Instance variables:
     movie_title -- the title of the movie
     box_art -- poster image file URL
     trailer_link -- YouTube URL
     """
+
     def __init__(self,
                  movie_title,
                  box_art,
